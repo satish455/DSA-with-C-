@@ -9,7 +9,6 @@ int  spiral(int arr[][4],int n){
     while(strow<=endrow&&stcol<=endcol){
         for(int i=stcol;i<=endcol;i++){
             cout<<arr[strow][i];
-
         }
         strow++;
 
